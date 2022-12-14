@@ -1,0 +1,105 @@
+header{
+    background: #FDC2E1;
+    background-image: url('./img/logo.jpg');
+	background-repeat:no-repeat;
+    background: -webkit-linear-gradient(to right, #FDC2E1, #F00782);
+    background: linear-gradient(to right,  #FDC2E1, #F00782);
+    
+}
+/*estilos para la tabla*/
+table th {
+    background-color: #f7ccd7
+    !important;
+    color: black;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+.navbar-default {
+    border: none;
+    color: #fff; 
+    background: rgb(12, 10, 11); 
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #626262; 
+    }
+
+/* change the color of active or hovered links */
+.navbar-default .nav-item.active .nav-link,
+.navbar-default .nav-item:hover .nav-link {
+       color: black;
+}
+
+.center {
+    margin-top:100px;   
+}
+
+.modal-header {
+	padding-bottom: 3px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+
+
+
+
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:white
+    ;
+  }
+.card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .card > .card-inner {
+    padding:10px;
+  }
+  .card
+  {
+  margin:5px; padding:10px;  
+  }
+  .card .header h2, h3 {
+    margin-bottom: 5px;
+    margin-top:5px;
+  }
+  .card .header {
+    margin-bottom:5px;
+  }
+  
+  .btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 12px; 
+    text-align: center; 
+    border-color:blue;
+  }
+
+
+

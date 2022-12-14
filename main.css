@@ -1,0 +1,98 @@
+header{
+    background: #FDC2E1;
+    background-image: url('./img/logo.jpg');
+	background-repeat:no-repeat;
+    background: -webkit-linear-gradient(to right, #FDC2E1, #F00782);
+    background: linear-gradient(to right,  #FDC2E1, #F00782);
+    
+}
+/*estilos para la tabla*/
+table th {
+    background-color: #FDC2E1
+    !important;
+    color:black;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+.card-bg {
+    
+    background-color:#FDC2E1
+    ;
+  }
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color:#F6ADD4;
+    overflow-x: hidden;
+    padding-top: 90px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
